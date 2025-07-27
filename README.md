@@ -71,7 +71,45 @@ lib/
 ---
 
 ```yaml
-# [dependencies are here, unchanged for brevity]
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+
+  # Networking
+  dio: ^5.3.3
+  retrofit: ^4.1.0
+  json_annotation: ^4.9.0
+
+  # Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.5
+
+  # Dependency Injection
+  get_it: ^7.6.0
+  injectable: ^2.3.2
+
+  # UI
+  cached_network_image: ^3.3.1
+  connectivity_plus: ^5.0.1
+  flutter_staggered_grid_view: ^0.4.1
+  pretty_dio_logger: ^1.4.0
+  flutter_native_splash: ^2.4.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.4.6
+  retrofit_generator: ^8.1.0
+  json_serializable: ^6.7.1
+  injectable_generator: ^2.4.0
+  hive_generator: ^2.0.1
 ```
 
 ## 📷 Screenshots
