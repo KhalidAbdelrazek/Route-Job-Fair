@@ -2,8 +2,6 @@
 
 A robust and intuitive photo gallery app built with Flutter, leveraging Clean Architecture. It uses Cubit for state management, Hive for caching, and fetches high-quality photos from the Pexels API. Supports both dark/light themes and full offline functionality.
 
-GitHub Repository: [Route Job Fair](https://github.com/KhalidAbdelrazek/Route-Job-Fair)
-
 ---
 
 ## ✨ Features
@@ -70,7 +68,10 @@ lib/
 
 ---
 
+## ✨ Dependencies
+
 ```yaml
+
 dependencies:
   flutter:
     sdk: flutter
@@ -101,6 +102,11 @@ dependencies:
   pretty_dio_logger: ^1.4.0
   flutter_native_splash: ^2.4.6
 
+```
+## ✨ Dev Dependencies
+
+```yaml
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -112,6 +118,7 @@ dev_dependencies:
   hive_generator: ^2.0.1
 ```
 
+
 ## 📷 Screenshots
 
 | Description             | Light Mode                                                                | Dark Mode                                                                 |
@@ -119,8 +126,10 @@ dev_dependencies:
 | 💠 Splash Screen         | <img src="assets/screenshots/splash_light.png" width="250"/>              | <img src="assets/screenshots/splash_dark.png" width="250"/>              |
 | 🔄 Loading State         | —                                                                         | <img src="assets/screenshots/home_dark_loading.png" width="250"/>        |
 | ✅ Online Photo List     | <img src="assets/screenshots/home_light_view.png" width="250"/>           | <img src="assets/screenshots/home_dark_view.png" width="250"/>           |
-| 📶 Offline Mode          | —                                                                         | <img src="assets/screenshots/home_cache_view_dark.png" width="250"/>     |
-| ❌ Error State           | <img src="assets/screenshots/internet_connection_error_light.png" width="250"/> | <img src="assets/screenshots/internet_connection_error_dark.png" width="250"/> |
+| 📶 Offline Mode          |                                                                                 | <img src="assets/screenshots/home_cache_view_dark.png" width="250"/> |
+| ❌ Error State           | <img src="assets/screenshots/internet_connection_error_light.png" width="250"/> | <img src="assets/screenshots/internet_connection_error_dark.png" width="250"/> | — |
+
+
 
 ---
 
@@ -138,8 +147,8 @@ dev_dependencies:
 
 ```bash
 # Clone the repo
-git clone https://github.com/KhalidAbdelrazek/Route-Job-Fair.git
-cd Route-Job-Fair
+git clone https://github.com/your-username/flutter-photo-gallery-clean-architecture.git
+cd flutter-photo-gallery-clean-architecture
 
 # Install dependencies
 flutter pub get
@@ -200,4 +209,3 @@ See the `LICENSE` file for details.
 
 - [Pexels](https://www.pexels.com/api/) — Free stock photo API
 - Flutter + Dart team and package maintainers 🙌
-◊
