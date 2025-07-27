@@ -1,0 +1,19 @@
+flutter_native_splash:
+
+  # For Android < 12 and iOS (centered image with background color)
+  image: assets/images/splashlight.png
+  color: "#ffffff"
+
+  # For dark mode (Android < 12 and iOS)
+  image_dark: assets/images/splashdark.png
+  color_dark: "#121212"
+
+  # For Android 12+ (center image only, separate field)
+  android_12:
+    image: assets/images/andriod12lightsplash.png
+    icon_background_color: "#ffffff"
+
+    image_dark: assets/images/andriod12darksplash.png
+    icon_background_color_dark: "#121212"
+
+  web: false
